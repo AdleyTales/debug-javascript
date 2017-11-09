@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+        console.time('useTime');
+        let arr = [];
+        for (var i = 0; i < 100000; i++) {
+          arr.push(i);
+        }
+        console.log(arr.length);
+        console.timeEnd('useTime');
+    </script>
+  </body>
+</html>
